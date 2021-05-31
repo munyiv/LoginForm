@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/caleb-george-5sF6NrB1MEg-unsplash.jpg);
+    background-size: cover;
+
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+.box h1{
+    color: rosybrown;
+}
+.box input[type="text"], .box input[type="password"]{
+    border: 0;
+    background-color: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 10px;
+    width: 280px;
+    outline: none;
+    color:black;
+    border-radius: 24%;
+    transition: 0.25px;
+}
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width: 220px;
+    border-color: yellow;
+}
+.box input[type="submit"]{
+    border: 0;
+    background-color: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 35px;
+    outline: none;
+    color: black;
+    border-radius: 24%;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+    background-color: yellow;
+}
